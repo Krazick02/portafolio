@@ -1,47 +1,43 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+  import NavBar from './components/templates/NavBar.vue'
+  import Header from './components/templates/Header.vue'
+  import Skills from './components/templates/Skills.vue'
+  import Projects from './components/templates/Projects.vue'
+  import About from './components/templates/About.vue'
+  import Contact from './components/templates/Contact.vue'
+  import Footer from './components/templates/Footer.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <body id="page-top">
+    <div>
+      <NavBar/>
+    </div>   
+      
+    <header>
+      <Header/>
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <div>
+      <About/>
     </div>
-  </header>
+    <div>
+      <Skills/>
+    </div>
+    <div>
+      <Projects/>
+    </div>
+    <div>
+      <Contact/>
+    </div>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <footer>
+      <Footer/>
+    </footer>
+  </body>
+
+
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
