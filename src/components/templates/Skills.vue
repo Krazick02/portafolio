@@ -11,7 +11,7 @@
                                 <!-- <div class="project-text my-auto text-lg-left"> -->
                                     <p class="mb-0 text-start text-white-50">HTML 5</p>
                                     <p class="mb-0 text-start text-white-50">JAVASCRIPT</p>
-                                    <p class="mb-0 text-start text-white-50">PHP</p>
+                                    <p class="mb-0 text-start text-white-50">PHP , JAVA and PYTHON</p>
                                     <p class="mb-0 text-start text-white-50">CSS and LESS</p>
                                     <h4 class="text-white">Frameworks like:</h4>
                                     <p class="mb-0 text-start text-white-50">BOOTSTRAP</p>
