@@ -16,7 +16,7 @@
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../../../public/VITAE.pdf" download="cv.pdf">Download CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/VITAE.pdf" download="cv.pdf">Download CV</a></li>
                 </ul>
             </div>
         </div>
