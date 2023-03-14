@@ -38,7 +38,7 @@
                 <!-- <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a> -->
                 <!-- <a class="mx-2" href=""><i class="fab fa-facebook-f"></i></a> -->
                 <a class="mx-2" href="https://github.com/Krazick02"><i class="fab fa-github"></i></a>
-                <a class="mx-2" href="https://www.linkedin.com/in/angel-de-jesus-aviles-cota-1b6677267/"><i class="fab fa-linkedin"></i></a>
+                <a class="mx-2" href="https://www.linkedin.com/in/angel-de-jesus-aviles-cota-086ab2241"><i class="fab fa-linkedin"></i></a>
                 <a class="mx-2" href="https://gitlab.com/Krazick02"><i class="fab fa-gitlab"></i></a>
             </div>
         </div>
