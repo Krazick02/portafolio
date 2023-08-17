@@ -9,16 +9,16 @@
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Skills in :</h4>
                                 <!-- <div class="project-text my-auto text-lg-left"> -->
-                                    <p class="mb-0 text-start text-white-50">HTML 5</p>
+                                    <p class="mb-0 text-start text-white-50">HTML 5, CSS and LESS/SASS</p>
                                     <p class="mb-0 text-start text-white-50">JAVASCRIPT</p>
                                     <p class="mb-0 text-start text-white-50">PHP , JAVA and PYTHON</p>
-                                    <p class="mb-0 text-start text-white-50">CSS and LESS</p>
+                                    <p class="mb-0 text-start text-white-50">MongoDB, MySQL and PostgreSQL</p>
                                     <h4 class="text-white">Frameworks like:</h4>
                                     <p class="mb-0 text-start text-white-50">BOOTSTRAP</p>
                                     <p class="mb-0 text-start text-white-50">VUE JS</p>
                                     <p class="mb-0 text-start text-white-50">LARAVEL</p>
                                     <!-- </div> -->
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <!-- <hr class="d-none d-lg-block mb-0 ms-0" /> -->
                                 
                             </div>
                         </div>

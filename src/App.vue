@@ -16,9 +16,9 @@
       <NavBar/>
     </div>   
       
-    <header>
+    <!-- <header> -->
       <Header/>
-    </header>
+    <!-- </header> -->
 
     <div>
       <About/>
@@ -33,9 +33,9 @@
       <Contact/>
     </div>
 
-    <footer>
+    <!-- <footer> -->
       <Footer/>
-    </footer>
+    <!-- </footer> -->
   </body>
 
 

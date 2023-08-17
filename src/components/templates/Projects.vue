@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="row gx-0 justify-content-center">
+            <div class="row gx-0 justify-content-center p-4 m-4">
                 <div class="col-lg-6"><img class="img-fluid" src="../img/cifrado.png" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row gx-0 justify-content-center">
+            <!-- <div class="row gx-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid" src="../img/moviedb.png" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
@@ -55,9 +55,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+            </div> -->
+            <div class="row gx-0 justify-content-center p-4 m-4">
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
@@ -72,6 +71,8 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+
             </div>
         </div>
     </section>
