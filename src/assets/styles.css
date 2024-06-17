@@ -70,6 +70,14 @@
   }
 }
 
+@keyframes colorChange {
+  0% { color: #39ff14; text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14, 0 0 40px #39ff14, 0 0 50px #39ff14; }
+  25% { color: #ff004c; text-shadow: 0 0 10px #ff004c, 0 0 20px #ff004c, 0 0 30px #ff004c, 0 0 40px #ff004c, 0 0 50px #ff004c; }
+  50% { color: #004cff; text-shadow: 0 0 10px #004cff, 0 0 20px #004cff, 0 0 30px #004cff, 0 0 40px #004cff, 0 0 50px #004cff; }
+  75% { color: #ffb700; text-shadow: 0 0 10px #ffb700, 0 0 20px #ffb700, 0 0 30px #ffb700, 0 0 40px #ffb700, 0 0 50px #ffb700; }
+  100% { color: #39ff14; text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14, 0 0 40px #39ff14, 0 0 50px #39ff14; }
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11464,7 +11472,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11476,7 +11484,7 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -11513,13 +11521,13 @@ body {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -11552,7 +11560,8 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../components/img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../components/img/bg-masthead.jpg"); */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../components/img/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11560,11 +11569,11 @@ body {
 }
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: gray;
   -webkit-background-clip: text;
           background-clip: text;
 }
@@ -11574,8 +11583,8 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 @media (min-width: 992px) {
@@ -11584,8 +11593,8 @@ body {
     padding: 0;
   }
   .masthead h1, .masthead .h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 4rem;
+    line-height: 4rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
@@ -11649,7 +11658,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .contact-section .card {
   border: 0;
@@ -11679,12 +11688,238 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
 }
 .contact-section .social a:active {
   color: #fff;
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 1rem 0;
+}
+
+.projectsList{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.projectsList h1, .projectsList .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: gray;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.projectsList h2, .projectsList .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .projectsList h1, .projectsList .h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .projectsList h1, .projectsList .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    letter-spacing: 0.8rem;
+  } 
+}
+
+.neon-text {
+  font-size: 2em;
+  font-family: Arial, sans-serif;
+  color: black;  
+  transition: color 0.3s ease, text-shadow 0.3s ease;  
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.neon-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);  
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+.neon-text:hover {
+  animation: colorChange 5s infinite;  
+}
+.neon-text:hover::before {
+  opacity: 1;  
+}
+
+.neon-text-skills {
+  color: #fff;  
+  position: relative;
+  display: inline-block;
+  overflow: hidden;  
+}
+.neon-text-skills::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #39ff14;  
+  overflow: hidden;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  clip-path: inset(0 100% 0 0);
+  z-index: 1;  
+}
+.neon-text-skills:hover::before {
+  clip-path: inset(0 0 0 0);  
+  transition: clip-path 1s ease; 
+}
+.neon-text-skills::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);  
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.neon-text-skills:hover::after {
+  opacity: 1; 
+}
+
+.expand-on-hover {
+  display: inline-block;
+  overflow: hidden;  
+  transition: transform 0.3s ease; 
+}
+.expand-on-hover:hover {
+  transform: scale(1.1);  
+}
+
+.btn10{
+  padding: 15px 100px;
+  margin:10px 4px;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display:inline-block;
+}
+
+.btn10{
+  top: 40px;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase!important;
+  letter-spacing: 2px;
+  color: #fff;
+  cursor: hand;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #fff;
+  border-radius:50px;
+  position: relative;
+  overflow: hidden!important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: transparent!important;
+  z-index:10;
+  
+}
+
+
+.btn10:hover{
+  border: 1px solid #071982;
+  color: #80ffd3!important;
+}
+.btn10::before {
+  content: '';
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #071982;
+  position: absolute;
+  -ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg); 
+  transform: skewX(-20deg);   
+  left: -10%;
+  opacity: 1;
+  top: 0;
+  z-index: -12;
+  -moz-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+-o-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+-webkit-transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
+   box-shadow:2px 0px 14px rgba(0,0,0,.6);
+} 
+
+.btn10::after {
+  content: '';
+  width: 0%;
+  height: 100%;
+  display: block;
+  background: #80ffd3;
+  position: absolute;
+-ms-transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg); 
+  transform: skewX(-20deg);   
+  left: -10%;
+  opacity: 0;
+  top: 0;
+  z-index: -15;
+  -webkit-transition: all .94s cubic-bezier(.2,.95,.57,.99);
+  -moz-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+  -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
+  transition: all .4s cubic-bezier(.2,.95,.57,.99);
+  box-shadow: 2px 0px 14px rgba(0,0,0,.6);
+}
+.btn10:hover::before, .btn1O:hover::before{
+opacity:1;
+width: 116%;
+}
+.btn10:hover::after, .btn1O:hover::after{
+opacity:1;
+width: 120%;
+}
+
+.card {
+  margin: 20px;
+}
+.card-img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.card-img:hover {
+  transform: rotate(-10deg) scale(1.1);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

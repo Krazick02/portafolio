@@ -1,61 +1,34 @@
 <template>
-    <section class="projects-section bg-light" id="projects">
+    <section class="projects-section bg-daRK" id="projects">
         <div class="container px-4 px-lg-5">
-            <!-- ECOMMERCE LARAVEL -->
-            <!-- <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/ecommerce.png" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="http://e-commerceuabcs2022.herokuapp.com/">
-                                    <h4 class="text-white">Ecommerce</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a base for an ecommerce , which was developed
-                                    with the php Laravel framework, where he worked mainly as a back-end
-                                    developer.
-                                    Test acount : prueba@gmail.com 
-                                    Password:123123123</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="row gx-0 justify-content-center p-4 m-4">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/cifrado.png" alt="..." /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://codevigenere.netlify.app/">
-                                    <h4 class="text-white">Encoder</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a simple project working as a message encryption simulator.
-                                     It was made using VueJs as the main framework.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
+
+            <div class="projectsList">
+                <div class=" px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="text-center">
+                            <h1 class="mx-auto my-0 text-uppercase neon-text">projects</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="../img/moviedb.png" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
+
+            <!-- <div class="row gx-0 justify-content-center p-4 m-4">
+                <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://moviesids.netlify.app/html/home.html">
-                                    <h4 class="text-white">Movie DB</h4>
+                                <a href="https://elblogvago.netlify.app/">
+                                    <h4 class="text-white">Blog</h4>
                                 </a>
-                                <p class="mb-0 text-white-50"> This is a site that was made in the development of a simple project,
-                                     based on VueJs technology, using the <a href="https://www.themoviedb.org/documentation/api">movieDB</a> API as the main resource.</p>
+                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</p>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+            </div>
             <div class="row gx-0 justify-content-center p-4 m-4">
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
@@ -64,7 +37,7 @@
                                 <a href="https://elblogvago.netlify.app/">
                                     <h4 class="text-white">Blog</h4>
                                 </a>
-                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog, 
+                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
                                     news or reading article, it is built using BootStrap as the main tool.</p>
                                 <hr class="d-none d-lg-block mb-0 me-0" />
                             </div>
@@ -72,7 +45,199 @@
                     </div>
                 </div>
                 <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+            </div>
+            <div class="row gx-0 justify-content-center p-4 m-4">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="https://elblogvago.netlify.app/">
+                                    <h4 class="text-white">Blog</h4>
+                                </a>
+                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+            </div>
+            <div class="row gx-0 justify-content-center p-4 m-4">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="https://elblogvago.netlify.app/">
+                                    <h4 class="text-white">Blog</h4>
+                                </a>
+                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</p>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
+            </div> -->
 
+            <div class="row">
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href="https://elblogvago.netlify.app/">
+                                        <h5 class="card-title text-black">Blog</h5>
+                                    </a> 
+                                    <p class="card-text text-black-50">
+                                        <i class="fas fa-css3"></i>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href="https://elblogvago.netlify.app/">
+                                        <h5 class="card-title text-black">Blog</h5>
+                                    </a> 
+                                    <p class="card-text text-black-50">
+                                        <i class="fas fa-css3"></i>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href="https://elblogvago.netlify.app/">
+                                        <h5 class="card-title text-black">Blog</h5>
+                                    </a> 
+                                    <p class="card-text text-black-50">
+                                        <i class="fas fa-css3"></i>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href="https://elblogvago.netlify.app/">
+                                        <h5 class="card-title text-black">Blog</h5>
+                                    </a> 
+                                    <p class="card-text text-black-50">
+                                        <i class="fas fa-css3"></i>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <a href="https://elblogvago.netlify.app/">
+                                        <h5 class="card-title text-black">Blog</h5>
+                                    </a> 
+                                    <p class="card-text text-black-50">
+                                        <i class="fas fa-css3"></i>
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">Blog</h5>
+                                    <p class="card-text text-black-50">Tu descripción o información.</p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">Blog</h5>
+                                    <p class="card-text text-black-50">Tu descripción o información.</p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 mx-auto border-dark">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-6">
+                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h5 class="card-title text-black">Blog</h5>
+                                    <p class="card-text text-black-50">Tu descripción o información.</p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
+                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

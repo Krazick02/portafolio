@@ -6,9 +6,9 @@
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Address</h4>
+                            <h4 class="text-uppercase m-0 text-black">Address</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">La paz, Baja California Sur</div>
+                            <div class="small text-black-50">Todos Santos,La Paz, Baja California Sur</div>
                         </div>
                     </div>
                 </div>
@@ -16,7 +16,7 @@
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-envelope text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Email</h4>
+                            <h4 class="text-uppercase m-0 text-black">Email</h4>
                             <hr class="my-4 mx-auto" />
                             <div class="small text-black-50"><a href="mailto:elangelcota@gmail.com">elangelcota@gmail.com</a></div>
                         </div>
@@ -26,9 +26,9 @@
                     <div class="card py-4 h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <h4 class="text-uppercase m-0 text-black">Phone</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+52 (612) 141 4282
+                            <div class="small text-black-50">+52 (612) 218 9407
                             </div>
                         </div>
                     </div>
