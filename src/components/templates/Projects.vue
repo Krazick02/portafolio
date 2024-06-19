@@ -58,18 +58,18 @@
                     <div class="card">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                                <img src="../img/calculator.png" class="card-img p-2" alt="Imagen">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <a href="https://elblogvago.netlify.app/">
-                                        <h5 class="card-title text-black">Blog</h5>
+                                    <a href="https://symphonious-custard-ace959.netlify.app/">
+                                        <h5 class="card-title text-black">Calculator</h5>
                                     </a> 
                                     <p class="card-text text-black-50">
                                         <i class="fas fa-css3"></i>
                                     </p>
-                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                    <p class="card-text"><small class="text-muted">This is a simple calculator, whose purpose is 
+                                        to manipulate arrays, js and tailwind were used.</small></p>
                                 </div>
                             </div>
                         </div>
