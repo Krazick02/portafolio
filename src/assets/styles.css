@@ -11923,3 +11923,7 @@ width: 120%;
   flex-direction: column;
   justify-content: center;
 }
+
+.logoB{
+  width: 80px;
+}

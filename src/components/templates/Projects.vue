@@ -11,76 +11,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="row gx-0 justify-content-center p-4 m-4">
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://elblogvago.netlify.app/">
-                                    <h4 class="text-white">Blog</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
-            </div>
-            <div class="row gx-0 justify-content-center p-4 m-4">
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://elblogvago.netlify.app/">
-                                    <h4 class="text-white">Blog</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
-            </div>
-            <div class="row gx-0 justify-content-center p-4 m-4">
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://elblogvago.netlify.app/">
-                                    <h4 class="text-white">Blog</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
-            </div>
-            <div class="row gx-0 justify-content-center p-4 m-4">
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <a href="https://elblogvago.netlify.app/">
-                                    <h4 class="text-white">Blog</h4>
-                                </a>
-                                <p class="mb-0 text-white-50"> This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"><img class="img-fluid" src="../img/blogVago.png" alt="..." /></div>
-            </div> -->
-
             <div class="row">
                 <div class="col-md-12 col-lg-6 mx-auto border-dark">
                     <div class="card">
@@ -107,18 +37,18 @@
                     <div class="card">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                                <img src="../img/todolist.png" class="card-img p-2" alt="Imagen">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <a href="https://elblogvago.netlify.app/">
-                                        <h5 class="card-title text-black">Blog</h5>
+                                    <a href="https://todo-listk.netlify.app/">
+                                        <h5 class="card-title text-black">To-Do List</h5>
                                     </a> 
                                     <p class="card-text text-black-50">
                                         <i class="fas fa-css3"></i>
                                     </p>
-                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                    <p class="card-text"><small class="text-muted">This project is a simple to-do list web application developed with HTML, 
+                                        CSS and JavaScript. Use Bootstrap for an attractive and responsive design.</small></p>
                                 </div>
                             </div>
                         </div>
