@@ -79,18 +79,17 @@
                     <div class="card">
                         <div class="row no-gutters">
                             <div class="col-md-6">
-                                <img src="../img/blogVago.png" class="card-img p-2" alt="Imagen">
+                                <img src="../img/noticiero.png" class="card-img p-2" alt="Imagen">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <a href="https://elblogvago.netlify.app/">
-                                        <h5 class="card-title text-black">Blog</h5>
+                                    <a href="https://fancy-semifreddo-28dc89.netlify.app">
+                                        <h5 class="card-title text-black">News</h5>
                                     </a> 
                                     <p class="card-text text-black-50">
                                         <i class="fas fa-css3"></i>
                                     </p>
-                                    <p class="card-text"><small class="text-muted">This is a representation of a page about a blog,
-                                    news or reading article, it is built using BootStrap as the main tool.</small></p>
+                                    <p class="card-text"><small class="text-muted">This is a representation of a news page, it is built using BootStrap as the main tool and JS to consume API/s.</small></p>
                                 </div>
                             </div>
                         </div>
